@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: lightblue;
+    padding: 9vh 13vw;
+   
+}
+
+.container{
+    
+    margin-left: 7vh;
+    border: 10px solid;
+    border-color: lightblue;
+    background-color: #fff;
+    height: 20vw;
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.heading{
+    background-color: #fff;
+    font-family: 'Madimi One';
+    color: rgb(143, 34, 216);
+    font-size: 4vh;
+    padding: 0%;
+    
+
+}
+.heading2{
+    background-color: #fff;
+    color: #817d7d;
+    font-family: 'Madimi One';
+    font-size: 3vh;
+    padding: 0%;
+}
+.button{
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh
+}
+.Boring{
+    
+    padding: 0%;
+    margin: 0%;
+    background: linear-gradient(to right, grey, white);
+    color: Black;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border: 5px solid ;
+    border-color: lightblue;
+    border-radius: 50%;
+    font-family: "Bungee Hairline";
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    position: relative;
+    left: 2vh;
+}
+
+@media (max-width: 600px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        background-color: lightblue;
+        
+       
+    }
+    .container{
+    
+       margin-top: 2vh;
+       margin-right: 2vh;
+        border: 10px solid;
+        border-color: "black";
+        background-color: #fff;
+        height: 77vh;
+        width: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       
+}
+
+.heading{
+    background-color: #fff;
+    font-family: 'Madimi One';
+    color: rgb(143, 34, 216);
+    font-size: 4vh;
+    padding: 3vh 3vh 0vh 3vh;
+    flex-wrap: wrap;
+
+}
+
+.heading2{
+    background-color: #fff;
+    color: #817d7d;
+    font-family: 'Madimi One';
+    font-size: 3vh;
+    padding: 0%;
+}
+}
